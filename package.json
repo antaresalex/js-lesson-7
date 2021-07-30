@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/antaresalex/js-lesson-7#readme",
   "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-jest": "^27.0.6",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
