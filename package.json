@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/antaresalex/js-lesson-7#readme",
   "dependencies": {
-    "@babel/core": "^7.14.8",
-    "@babel/preset-env": "^7.14.8",
-    "babel-jest": "^27.0.6",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-jest": "^27.0.6",
     "@types/jest": "^26.0.24",
     "eslint": "^7.31.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -36,7 +36,9 @@
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^11.1.1",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "webpack": "^5.50.0",
+    "webpack-cli": "^4.7.2"
   },
   "lint-staged": {
     "*.js": "eslint --fix",
